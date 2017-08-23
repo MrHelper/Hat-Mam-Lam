@@ -81,6 +81,11 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 	font-style: italic;
 	font-size: 17px;
 }
+.avatar-text{
+	padding: 10px 40px;    
+	font-weight: bold;    
+	mix-blend-mode: overlay;
+}
 .chuyencuahml{
 	background: url(../images/sec_bg_1.png) , -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
     background: url(../images/sec_bg_1.png) , -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.3)));
