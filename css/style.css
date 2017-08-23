@@ -130,6 +130,7 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 }
 .ndtd{
 	background: url('../images/cchml_3_4.jpg') center center no-repeat;
+	background-size: cover;
 	color: #fff;
 }
 .ndtd-box{
@@ -148,6 +149,7 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     margin-top:40px;
     padding:20px;
     background: url('../images/h_bg.png') top center no-repeat;
+    
 }
 .footer-box {
     padding-top: 90px;
