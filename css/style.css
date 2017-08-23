@@ -108,6 +108,9 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 	-webkit-transition: background 0.5s; /* Safari */
     transition: background 0.5s;
 }
+.tintuc {
+    margin: 50px 0px;
+}
 .tintuc-text {
     position: absolute;
     bottom: 0;
@@ -121,6 +124,19 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 .tintuc-text:hover {
     bottom: 40px;
     transition: bottom 0.3s;
+}
+.nkht{
+    margin: 50px 0px;
+    background: url(../images/nkht_bg.png) , -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/nkht_bg.png) , -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.3)));
+    background: url(../images/nkht_bg.png) , -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/nkht_bg.png) , -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/nkht_bg.png) , linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    background-size: cover;
+    padding: 50px 0px;
 }
 .btn.btn-hml:hover  {
     background: #333;
@@ -149,7 +165,7 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     margin-top:40px;
     padding:20px;
     background: url('../images/h_bg.png') top center no-repeat;
-    
+
 }
 .footer-box {
     padding-top: 90px;
