@@ -166,3 +166,8 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     mix-blend-mode: soft-light;
     font-weight: bolder;
 }
+.inputtrans{
+    margin: 0px 50px;
+    padding: 25px 20px;
+    background-color: transparent;
+}
