@@ -9,6 +9,12 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     color: #777;
     transition: color 0.3s;
 }
+.width100{
+    width:100%;
+}
+.bmargin{
+    margin-bottom:15px;
+}
 @media (min-width: 768px){
     .navbar-nav{
         margin: 0 auto;
@@ -41,6 +47,9 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     font-style: italic;
     font-family: serif;
 }
+.tieuchi-box{
+    color:#fff;
+}
 .tieuchi-image{
 	float:left; 
 	margin:10px;
@@ -55,7 +64,8 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 	font-size: 17px;
 }
 .chuyencuahml{
-	background-color: #e4e4e4;
+    background-color: #e4e4e4;
+    padding:50px 0px;
 }
 .btn.btn-hml {
     background: rgba(255,255,255,0.5);
@@ -66,6 +76,20 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 	-webkit-transition: background 0.5s; /* Safari */
     transition: background 0.5s;
 }
+.tintuc-text {
+    position: absolute;
+    bottom: 0;
+    background-color: #515151;
+    color: #fff;
+    margin-right: 15px;
+    padding: 0px 10px 13px 10px;
+    transition: bottom 0.5s;
+    font-style: italic;
+}
+.tintuc-text:hover {
+    bottom: 40px;
+    transition: bottom 0.3s;
+}
 .btn.btn-hml:hover  {
     background: #333;
     color: #fff;
@@ -73,11 +97,26 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     transition: background 0.5s, color 0.5s;
 }
 .ndtd{
-	background-color: #00253c;
+	background: url('../images/cchml_3_4.jpg') center center no-repeat;
 	color: #fff;
-	padding:50px 0px 80px 0px;
 }
-
+.ndtd-box{
+    background-color: #00253c;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding:40px 20px;
+}
+.nkht-text-box {
+    height: 100%;
+    background-color: lightgray;
+    padding: 45px;
+}
+.sec-title{
+    margin-top:40px;
+    padding:20px;
+    background: url('../images/h_bg.png') top center no-repeat;
+}
 .text-italic{
 	font-style: italic;
 }
