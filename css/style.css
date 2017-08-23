@@ -9,6 +9,9 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     color: #777;
     transition: color 0.3s;
 }
+.text-italic{
+	font-style: italic;
+}
 .width100{
     width:100%;
 }
@@ -30,14 +33,25 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 	color:#000;
 }
 .cover{
-	background: url('../images/cover_bg.png') center center no-repeat , -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,100));
-    background: url('../images/cover_bg.png') center center no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,0.3)), to(rgba(255,255,255,100)));
-    background: url('../images/cover_bg.png') center center no-repeat, -webkit-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,100));
-    background: url('../images/cover_bg.png') center center no-repeat, -o-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,100));
-    background: url('../images/cover_bg.png') center center no-repeat, linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,100));
+	background: url('../images/cover_bg.png') center center no-repeat , -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,1));
+    background: url('../images/cover_bg.png') center center no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,0.3)), to(rgba(255,255,255,1)));
+    background: url('../images/cover_bg.png') center center no-repeat, -webkit-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,1));
+    background: url('../images/cover_bg.png') center center no-repeat, -o-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,1));
+    background: url('../images/cover_bg.png') center center no-repeat, linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,1));
     height: 100%;
     position: relative;
-    
+    background-size: cover;
+}
+.footer {
+    background: url(../images/footer_bg.png) , -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/footer_bg.png) , -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.3)));
+    background: url(../images/footer_bg.png) , -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/footer_bg.png) , -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/footer_bg.png) , linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100%;
+    position: relative;
     background-size: cover;
 }
 .cover-title {
@@ -46,6 +60,9 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     font-size: 75px;
     font-style: italic;
     font-family: serif;
+    font-weight: bold;
+    mix-blend-mode: overlay;
+    color: #000;
 }
 .tieuchi-box{
     color:#fff;
@@ -53,6 +70,7 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 .tieuchi-image{
 	float:left; 
 	margin:10px;
+	mix-blend-mode: color;
 }
 .image-shadow {
     box-shadow: -30px 30px #8c9da7;
@@ -64,8 +82,22 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 	font-size: 17px;
 }
 .chuyencuahml{
+	background: url(../images/sec_bg_1.png) , -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/sec_bg_1.png) , -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.3)));
+    background: url(../images/sec_bg_1.png) , -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/sec_bg_1.png) , -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background: url(../images/sec_bg_1.png) , linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.3));
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100%;
+    position: relative;
+    background-size: cover;
     background-color: #e4e4e4;
     padding:50px 0px;
+}
+.chuyencuahml-img {
+    box-shadow: -10px 10px 1px rgba(170, 170, 170, 0.5);
+    border: 1px solid rgb(147, 183, 175);
 }
 .btn.btn-hml {
     background: rgba(255,255,255,0.5);
@@ -79,7 +111,7 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
 .tintuc-text {
     position: absolute;
     bottom: 0;
-    background-color: #515151;
+    background-color: rgba(81, 81, 81, 0.54);
     color: #fff;
     margin-right: 15px;
     padding: 0px 10px 13px 10px;
@@ -117,6 +149,20 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     padding:20px;
     background: url('../images/h_bg.png') top center no-repeat;
 }
-.text-italic{
-	font-style: italic;
+.footer-box {
+    padding-top: 90px;
+}
+.footer-title {
+    font-size: 27px;
+    padding-bottom: 15px;
+}
+.footer-info {
+    padding: 40px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer-blend{
+    mix-blend-mode: soft-light;
+    font-weight: bolder;
 }
