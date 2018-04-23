@@ -1,121 +1,103 @@
-body{
-font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', sans-serif;
+body {
+    font-family: 'Roboto-Light','Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', sans-serif;
 }
-.navbar-default .navbar-nav>li>a {
-    color: #333;
-    font-weight: bolder;
+.navbar li a{
+	color: #555;
 }
-.navbar-default .navbar-nav>li>a:hover {
-    color: #777;
-    transition: color 0.3s;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
-.text-italic{
-	font-style: italic;
-}
-.width100{
-    width:100%;
-}
-.bmargin{
-    margin-bottom:15px;
-}
-@media (min-width: 768px){
-    .navbar-nav{
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-        float:none;
-    }
-}
-/*index*/
-.navtrans{
-	background:transparent;
-	border:none;
-	color:#000;
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 .cover{
-	background: url('../images/cover_bg.png') center center no-repeat , -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,1));
-    background: url('../images/cover_bg.png') center center no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,0.3)), to(rgba(255,255,255,1)));
-    background: url('../images/cover_bg.png') center center no-repeat, -webkit-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,1));
-    background: url('../images/cover_bg.png') center center no-repeat, -o-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,1));
-    background: url('../images/cover_bg.png') center center no-repeat, linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,1));
-    height: 100%;
+    background: url(../img/banner.jpg) center center no-repeat, linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,1));
+    height: calc(100vh - 52px);
     position: relative;
     background-size: cover;
+    background-position: top;
 }
-.footer {
-    background: url(../images/footer_bg.png) , -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/footer_bg.png) , -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.3)));
-    background: url(../images/footer_bg.png) , -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/footer_bg.png) , -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/footer_bg.png) , linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background-repeat: no-repeat;
-    background-position: center top;
-    height: 100%;
-    position: relative;
-    background-size: cover;
+
+.navbar {
+    margin-bottom: 0px;
 }
-.cover-title {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    font-size: 75px;
+
+section{
+	margin: 20px 0px;
+}
+
+section.tieuchi {
+    margin: 60px 0px 40px 0px;
+}
+
+.tieuchi-box h4 {
+    margin: 0px;
+}
+
+.tieuchi-box .box {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #00000059;
+    margin: 0px 10px 10px 0px;
+}
+
+.tieuchi-box p {
     font-style: italic;
-    font-family: serif;
-    font-weight: bold;
-    mix-blend-mode: overlay;
-    color: #000;
 }
-.tieuchi-box{
-    color:#fff;
-}
-.tieuchi-image{
-	float:left; 
-	margin:10px;
-	mix-blend-mode: color;
-}
+
 .image-shadow {
     box-shadow: -30px 30px #8c9da7;
     margin-left: 30px;
     margin-bottom: 80px;
 }
-.thongdiep{
-	font-style: italic;
-	font-size: 17px;
+
+.intro{
+    padding-top: 40px;
+    font-style: italic;
 }
-.avatar-text{
-	padding: 10px 40px;    
-	font-weight: bold;    
-	mix-blend-mode: overlay;
-}
-.chuyencuahml{
-	background: url(../images/sec_bg_1.png) , -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/sec_bg_1.png) , -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.3)));
-    background: url(../images/sec_bg_1.png) , -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/sec_bg_1.png) , -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/sec_bg_1.png) , linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.3));
+
+.cchml {
+	background: url(../img/base_1.jpg);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     height: 100%;
     position: relative;
     background-size: cover;
     background-color: #e4e4e4;
-    padding:50px 0px;
+    padding-bottom: 50px;
 }
-.chuyencuahml-img {
-    box-shadow: -10px 10px 1px rgba(170, 170, 170, 0.5);
-    border: 1px solid rgb(147, 183, 175);
+
+.btn.btn-light:hover {
+    background: #333;
+    color: #fff;
+    -webkit-transition: background 0.5s,color 0.5s;
+    transition: background 0.5s, color 0.5s;
 }
-.btn.btn-hml {
+.btn.btn-light {
     background: rgba(255,255,255,0.5);
     padding: 10px 25px;
     color: #333;
     border: 1px solid black;
     border-radius: 0px;
-	-webkit-transition: background 0.5s; /* Safari */
+    -webkit-transition: background 0.5s;
     transition: background 0.5s;
 }
-.tintuc {
-    margin: 50px 0px;
+
+.cchml-img{
+	max-height: 350px;
 }
+
+.overflow-hidden{
+	overflow: hidden;
+}
+
+section.tintuc {
+    margin-bottom: 60px;
+}
+
 .tintuc-text {
     position: absolute;
     bottom: 0;
@@ -125,72 +107,78 @@ font-family: 'Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', san
     padding: 0px 10px 13px 10px;
     transition: bottom 0.5s;
     font-style: italic;
+    cursor: pointer;
 }
+
 .tintuc-text:hover {
     bottom: 40px;
     transition: bottom 0.3s;
 }
-.nkht{
-    margin: 50px 0px;
-    background: url(../images/nkht_bg.png) , -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/nkht_bg.png) , -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.3)));
-    background: url(../images/nkht_bg.png) , -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/nkht_bg.png) , -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0.3));
-    background: url(../images/nkht_bg.png) , linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.3));
+
+.sec-title {
+    margin-top: 40px;
+    padding: 20px;
+    background: url(../img/h_bg.png) top center no-repeat;
+}
+section.khoahoc{
+    background: url(../img/base_2.jpg) , linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.3));
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
+    height: 100%;
     position: relative;
     background-size: cover;
-    padding: 50px 0px;
+    padding: 88px 0px 100px 0px;
+    margin: 0px;
 }
-.btn.btn-hml:hover  {
-    background: #333;
-    color: #fff;
-    -webkit-transition: background 0.5s,color 0.5s; /* Safari */
-    transition: background 0.5s, color 0.5s;
-}
-.ndtd{
-	background: url('../images/cchml_3_4.jpg') center center no-repeat;
-	background-size: cover;
-	color: #fff;
-}
-.ndtd-box{
-    background-color: #00253c;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    padding:40px 20px;
-}
-.nkht-text-box {
-    height: 100%;
-    background-color: lightgray;
-    padding: 45px;
-}
-.sec-title{
-    margin-top:40px;
-    padding:20px;
-    background: url('../images/h_bg.png') top center no-repeat;
+
+.khoahoc h1{
+	color: #859a9c;
+	font-size: 40px;
 
 }
-.footer-box {
-    padding-top: 90px;
+
+.khoahoc .btn-dark{
+    border: 2px solid #fff;
+    font-size: 30px;
+    padding: 10px 65px;
+    color: #fff;
+    background: rgba(0,0,0,0.3);
+    margin-top: 30px;
+    transition: 0.5s background;
 }
-.footer-title {
-    font-size: 27px;
-    padding-bottom: 15px;
+.khoahoc .btn-dark:hover{
+    background: rgba(0,0,0,0.5);
+    transition: 0.5s background;
 }
-.footer-info {
-    padding: 40px;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: bold;
+
+section.nkht{
+	margin-bottom:80px;
 }
-.footer-blend{
-    mix-blend-mode: soft-light;
-    font-weight: bolder;
+
+section.footer{
+    background: url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    padding: 100px 0px 60px 0px;
+    margin: 0px;
 }
-.inputtrans{
-    margin: 0px 50px;
-    padding: 25px 20px;
-    background-color: transparent;
+.text-bold{
+	font-weight: bold;
+}
+#inputSEmail{
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid rgba(255,255,255,0.7);
+}
+
+#inputSEmail::placeholder{
+	color:#fff;
+	text-align: center;
+	font-weight: lighter;
+	font-style: italic;
 }
