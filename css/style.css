@@ -1,66 +1,59 @@
 body {
-    font-family: 'Roboto-Light','Roboto','Noto Serif','Cormorant Infant','Cormorant','Taviraj', sans-serif;
+    font-family: 'Roboto-Light', 'Roboto', 'Noto Serif', 'Cormorant Infant', 'Cormorant', 'Taviraj', sans-serif;
 }
-.navbar li a{
-	color: #555;
+.navbar li a {
+    color: #555;
 }
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
-
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
 }
-.cover{
-    background: url(../img/banner.jpg) center center no-repeat, linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,1));
+.cover {
+    background: url(../img/banner.jpg) center center no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1));
     height: calc(100vh - 52px);
     position: relative;
     background-size: cover;
     background-position: top;
 }
-
+.intro-header img {
+    width: 100%;
+}
 .navbar {
     margin-bottom: 0px;
 }
-
-section{
-	margin: 20px 0px;
+section {
+    margin: 20px 0px;
 }
-
 section.tieuchi {
     margin: 60px 0px 40px 0px;
 }
-
 .tieuchi-box h4 {
     margin: 0px;
 }
-
 .tieuchi-box .box {
     height: 80px;
     width: 80px;
     border: 5px solid #00000059;
     margin: 0px 10px 10px 0px;
 }
-
 .tieuchi-box p {
     font-style: italic;
 }
-
 .image-shadow {
     box-shadow: -30px 30px #8c9da7;
     margin-left: 30px;
     margin-bottom: 80px;
 }
-
-.intro{
+.intro {
     padding-top: 40px;
     font-style: italic;
 }
-
 .cchml {
-	background: url(../img/base_1.jpg);
+    background: url(../img/base_1.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
     height: 100%;
@@ -69,15 +62,14 @@ section.tieuchi {
     background-color: #e4e4e4;
     padding-bottom: 50px;
 }
-
 .btn.btn-light:hover {
     background: #333;
     color: #fff;
-    -webkit-transition: background 0.5s,color 0.5s;
+    -webkit-transition: background 0.5s, color 0.5s;
     transition: background 0.5s, color 0.5s;
 }
 .btn.btn-light {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     padding: 10px 25px;
     color: #333;
     border: 1px solid black;
@@ -85,19 +77,15 @@ section.tieuchi {
     -webkit-transition: background 0.5s;
     transition: background 0.5s;
 }
-
-.cchml-img{
-	max-height: 350px;
+.cchml-img {
+    max-height: 350px;
 }
-
-.overflow-hidden{
-	overflow: hidden;
+.overflow-hidden {
+    overflow: hidden;
 }
-
 section.tintuc {
     margin-bottom: 60px;
 }
-
 .tintuc-text {
     position: absolute;
     bottom: 0;
@@ -109,19 +97,17 @@ section.tintuc {
     font-style: italic;
     cursor: pointer;
 }
-
 .tintuc-text:hover {
     bottom: 40px;
     transition: bottom 0.3s;
 }
-
 .sec-title {
     margin-top: 40px;
     padding: 20px;
     background: url(../img/h_bg.png) top center no-repeat;
 }
-section.khoahoc{
-    background: url(../img/base_2.jpg) , linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.3));
+section.khoahoc {
+    background: url(../img/base_2.jpg), linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
     background-repeat: no-repeat;
     background-position: center top;
     height: 100%;
@@ -130,32 +116,27 @@ section.khoahoc{
     padding: 88px 0px 100px 0px;
     margin: 0px;
 }
-
-.khoahoc h1{
-	color: #859a9c;
-	font-size: 40px;
-
+.khoahoc h1 {
+    color: #859a9c;
+    font-size: 40px;
 }
-
-.khoahoc .btn-dark{
+.khoahoc .btn-dark {
     border: 2px solid #fff;
     font-size: 30px;
     padding: 10px 65px;
     color: #fff;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     margin-top: 30px;
     transition: 0.5s background;
 }
-.khoahoc .btn-dark:hover{
-    background: rgba(0,0,0,0.5);
+.khoahoc .btn-dark:hover {
+    background: rgba(0, 0, 0, 0.5);
     transition: 0.5s background;
 }
-
-section.nkht{
-	margin-bottom:80px;
+section.nkht {
+    margin-bottom: 80px;
 }
-
-section.footer{
+footer.footer {
     background: url(../img/footer.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -165,20 +146,129 @@ section.footer{
     padding: 100px 0px 60px 0px;
     margin: 0px;
 }
-.text-bold{
-	font-weight: bold;
+.text-bold {
+    font-weight: bold;
 }
-#inputSEmail{
-    background-color: rgba(0,0,0,0.4);
+#inputSEmail {
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 30px;
     color: #fff;
     font-size: 20px;
-    border: 2px solid rgba(255,255,255,0.7);
+    border: 2px solid rgba(255, 255, 255, 0.7);
 }
-
-#inputSEmail::placeholder{
-	color:#fff;
-	text-align: center;
-	font-weight: lighter;
-	font-style: italic;
+#inputSEmail::placeholder {
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+.route {
+    padding: 7px 0;
+}
+.route a {
+    color: black;
+}
+.route img {
+    margin: 0 5px;
+}
+.search {
+    position: relative;
+}
+.search input {
+    width: 300px;
+}
+.search img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#about-us .title h3 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+p {
+    line-height: 25px;
+    font-size: 16px;
+    font-style: italic;
+}
+section .brown-bg {}
+section#quote {
+    position: relative;
+    margin: 50px 0;
+}
+blockquote {
+    border-left: none;
+    text-align: center;
+    padding: 0 350px;
+}
+blockquote:before {
+    font-family: "Georgia", serif;
+    content: "“";
+    position: absolute;
+    left: 25vw;
+    top: -50px;
+    font-size: 5em;
+    color: brown;
+    font-weight: normal;
+}
+blockquote:after {
+    font-family: "Georgia", serif;
+    content: "”";
+    position: absolute;
+    right: 25vw;
+    bottom: -50px;
+    font-size: 5em;
+    color: brown;
+    font-weight: normal;
+}
+@media (min-width: 1400px) {
+    blockquote:before {
+        left: 32vw;
+    }
+    blockquote:after {
+        right: 32vw;
+    }
+}
+section#quote h3 {
+    font-style: italic;
+    line-height: 50px;
+}
+section#ask h1 {
+    line-height: 50px;
+    color: brown;
+    margin-bottom: 50px;
+}
+#about-us .brown-bg {
+    position: absolute;
+    width: 120%;
+    height: 368px;
+    background-color: brown;
+    top: -20px;
+    z-index: -1;
+}
+#ask .blue-bg {
+    position: absolute;
+    width: 120%;
+    height: 550px;
+    background-color: blue;
+    bottom: -270px;
+    z-index: -1;
+}
+#ask .brown-bg {
+    position: absolute;
+    width: 120%;
+    height: 800px;
+    background-color: brown;
+    bottom: -520px;
+    right: 20px;
+    z-index: -1;
+}
+#thanks {
+    margin: 100px 0;
+    text-align: center;
+}
+#thanks h3 {
+    padding: 0 300px;
+    line-height: 50px;
+    font-style: italic;
 }
