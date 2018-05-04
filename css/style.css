@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 .cover {
-    background: url(../img/banner.jpg) center center no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1));
+    background: url(../img/banner_home.gif) center center no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1));
     height: calc(100vh - 52px);
     position: relative;
     background-size: cover;
@@ -53,7 +53,7 @@ section.tieuchi {
     font-style: italic;
 }
 .cchml {
-    background: url(../img/base_1.jpg);
+    background: url(../img/home_002.gif);
     background-repeat: no-repeat;
     background-position: center bottom;
     height: 100%;
@@ -107,7 +107,7 @@ section.tintuc {
     background: url(../img/h_bg.png) top center no-repeat;
 }
 section.khoahoc {
-    background: url(../img/base_2.jpg), linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
+    background: url(../img/home_012.gif), linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
     background-repeat: no-repeat;
     background-position: center top;
     height: 100%;
@@ -137,9 +137,9 @@ section.nkht {
     margin-bottom: 80px;
 }
 footer.footer {
-    background: url(../img/footer.jpg);
+    background: url(../img/footer.gif);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom center;
     height: 100%;
     position: relative;
     background-size: cover;
@@ -242,7 +242,7 @@ section#ask h1 {
     position: absolute;
     width: 120%;
     height: 368px;
-    background-color: brown;
+    background-color: rgb(234, 223, 217);
     top: -20px;
     z-index: -1;
 }
@@ -250,7 +250,7 @@ section#ask h1 {
     position: absolute;
     width: 120%;
     height: 550px;
-    background-color: blue;
+    background-color: rgb(243, 243, 243);
     bottom: -270px;
     z-index: -1;
 }
@@ -258,10 +258,13 @@ section#ask h1 {
     position: absolute;
     width: 120%;
     height: 800px;
-    background-color: brown;
+    background-color: rgb(234, 223, 217);
     bottom: -520px;
     right: 20px;
     z-index: -1;
+}
+.lightbrowbg{
+    background-color: rgb(234, 223, 217);
 }
 #thanks {
     margin: 100px 0;
