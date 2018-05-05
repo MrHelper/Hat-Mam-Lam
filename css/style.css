@@ -1,17 +1,31 @@
 body {
     font-family: 'Roboto-Light', 'Roboto', 'Noto Serif', 'Cormorant Infant', 'Cormorant', 'Taviraj', sans-serif;
 }
+
+.tnr-font {
+    font-family: "Times New Roman" !important;
+    font-style: italic;
+}
+
+.italic-font-style {
+    font-style: italic;
+    text-align: justify;
+}
+
 .navbar li a {
     color: #555;
 }
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top;
 }
+
 .navbar .navbar-collapse {
     text-align: center;
 }
+
 .cover {
     background: url(../img/banner_home.gif) center center no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1));
     height: calc(100vh - 52px);
@@ -19,39 +33,49 @@ body {
     background-size: cover;
     background-position: top;
 }
+
 .intro-header img {
     width: 100%;
 }
+
 .navbar {
     margin-bottom: 0px;
 }
+
 section {
     margin: 20px 0px;
 }
+
 section.tieuchi {
     margin: 60px 0px 40px 0px;
 }
+
 .tieuchi-box h4 {
     margin: 0px;
 }
+
 .tieuchi-box .box {
     height: 80px;
     width: 80px;
     border: 5px solid #00000059;
     margin: 0px 10px 10px 0px;
 }
+
 .tieuchi-box p {
     font-style: italic;
 }
+
 .image-shadow {
     box-shadow: -30px 30px #8c9da7;
     margin-left: 30px;
     margin-bottom: 80px;
 }
+
 .intro {
     padding-top: 40px;
     font-style: italic;
 }
+
 .cchml {
     background: url(../img/home_002.gif);
     background-repeat: no-repeat;
@@ -62,12 +86,14 @@ section.tieuchi {
     background-color: #e4e4e4;
     padding-bottom: 50px;
 }
+
 .btn.btn-light:hover {
     background: #333;
     color: #fff;
     -webkit-transition: background 0.5s, color 0.5s;
     transition: background 0.5s, color 0.5s;
 }
+
 .btn.btn-light {
     background: rgba(255, 255, 255, 0.5);
     padding: 10px 25px;
@@ -77,15 +103,19 @@ section.tieuchi {
     -webkit-transition: background 0.5s;
     transition: background 0.5s;
 }
+
 .cchml-img {
     max-height: 350px;
 }
+
 .overflow-hidden {
     overflow: hidden;
 }
+
 section.tintuc {
     margin-bottom: 60px;
 }
+
 .tintuc-text {
     position: absolute;
     bottom: 0;
@@ -97,15 +127,18 @@ section.tintuc {
     font-style: italic;
     cursor: pointer;
 }
+
 .tintuc-text:hover {
     bottom: 40px;
     transition: bottom 0.3s;
 }
+
 .sec-title {
     margin-top: 40px;
     padding: 20px;
     background: url(../img/h_bg.png) top center no-repeat;
 }
+
 section.khoahoc {
     background: url(../img/home_012.gif), linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
     background-repeat: no-repeat;
@@ -116,10 +149,12 @@ section.khoahoc {
     padding: 88px 0px 100px 0px;
     margin: 0px;
 }
+
 .khoahoc h1 {
     color: #859a9c;
     font-size: 40px;
 }
+
 .khoahoc .btn-dark {
     border: 2px solid #fff;
     font-size: 30px;
@@ -129,13 +164,16 @@ section.khoahoc {
     margin-top: 30px;
     transition: 0.5s background;
 }
+
 .khoahoc .btn-dark:hover {
     background: rgba(0, 0, 0, 0.5);
     transition: 0.5s background;
 }
+
 section.nkht {
     margin-bottom: 80px;
 }
+
 footer.footer {
     background: url(../img/footer.gif);
     background-repeat: no-repeat;
@@ -146,9 +184,11 @@ footer.footer {
     padding: 100px 0px 60px 0px;
     margin: 0px;
 }
+
 .text-bold {
     font-weight: bold;
 }
+
 #inputSEmail {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 30px;
@@ -156,71 +196,91 @@ footer.footer {
     font-size: 20px;
     border: 2px solid rgba(255, 255, 255, 0.7);
 }
+
 #inputSEmail::placeholder {
     color: #fff;
     text-align: center;
     font-weight: lighter;
     font-style: italic;
 }
+
 .route {
     padding: 7px 0;
 }
+
 .route a {
     color: black;
 }
+
 .route img {
     margin: 0 5px;
 }
+
 .search {
     position: relative;
 }
+
 .search input {
     width: 300px;
 }
+
 .search img {
     position: absolute;
     right: 10px;
     top: 10px;
 }
+
 #about-us .title h3 {
     margin-top: 0;
     margin-bottom: 50px;
 }
+
 p {
-    line-height: 25px;
-    font-size: 16px;
-    font-style: italic;
+    line-height: 30px;
+    font-size: 18px;
 }
+
 section .brown-bg {}
+
 section#quote {
     position: relative;
     margin: 50px 0;
 }
+
 blockquote {
     border-left: none;
     text-align: center;
     padding: 0 350px;
 }
+
+blockquote h2 {
+    color: rgb(31, 87, 110);
+    font-style: italic;
+    line-height: 50px;
+}
+
 blockquote:before {
     font-family: "Georgia", serif;
     content: "“";
     position: absolute;
     left: 25vw;
-    top: -50px;
-    font-size: 5em;
-    color: brown;
+    top: -80px;
+    font-size: 10em;
+    color: rgb(208, 186, 172);
     font-weight: normal;
 }
+
 blockquote:after {
     font-family: "Georgia", serif;
     content: "”";
     position: absolute;
     right: 25vw;
-    bottom: -50px;
-    font-size: 5em;
-    color: brown;
+    bottom: -150px;
+    font-size: 10em;
+    color: rgb(208, 186, 172);
     font-weight: normal;
 }
+
 @media (min-width: 1400px) {
     blockquote:before {
         left: 32vw;
@@ -229,15 +289,12 @@ blockquote:after {
         right: 32vw;
     }
 }
+
 section#quote h3 {
     font-style: italic;
     line-height: 50px;
 }
-section#ask h1 {
-    line-height: 50px;
-    color: brown;
-    margin-bottom: 50px;
-}
+
 #about-us .brown-bg {
     position: absolute;
     width: 120%;
@@ -245,33 +302,89 @@ section#ask h1 {
     background-color: rgb(234, 223, 217);
     top: -20px;
     z-index: -1;
+    padding: 50px 170px 50px 80px;
 }
+
+#about-us h1.tnr-font {
+    line-height: 50px;
+}
+
+section#ask h1 {
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+section#ask h1.left {
+    padding-left: 100px;
+    color: rgb(102, 89, 81);
+    font-size: 48px;
+    line-height: 60px;
+}
+
+section#ask h1.right {
+    padding-right: 70px;
+    color: rgb(130, 158, 169);
+    font-size: 48px;
+    line-height: 60px;
+    margin: 50px 0;
+}
+
+
+#ask p.two-col {
+    -webkit-columns: 20px 2;
+    /* Chrome, Safari, Opera */
+    -moz-columns: 20px 2;
+    /* Firefox */
+    columns: 20px 2;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 300;
+}
+
 #ask .blue-bg {
     position: absolute;
     width: 120%;
-    height: 550px;
     background-color: rgb(243, 243, 243);
-    bottom: -270px;
     z-index: -1;
+    top: 100px;
+    padding: 70px 260px 50px 70px;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 50px;
 }
+
 #ask .brown-bg {
     position: absolute;
     width: 120%;
-    height: 800px;
     background-color: rgb(234, 223, 217);
-    bottom: -520px;
     right: 20px;
     z-index: -1;
+    padding: 70px 70px 50px 260px;
+    text-align: justify;
+    margin-right: 70px;
+    top: 100px;
 }
-.lightbrowbg{
+
+.lightbrowbg {
     background-color: rgb(234, 223, 217);
 }
+
 #thanks {
-    margin: 100px 0;
+    margin: 200px 0 100px 0;
     text-align: center;
 }
+
 #thanks h3 {
     padding: 0 300px;
     line-height: 50px;
     font-style: italic;
+    font-size: 30px;
+}
+
+.web-name {
+    font-weight: bold;
+    color: rgb(31, 87, 110);
+}
+.web-name.pink {
+    color: rgb(225, 169, 180);
 }
