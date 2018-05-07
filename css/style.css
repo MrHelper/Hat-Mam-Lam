@@ -1,31 +1,25 @@
 body {
-    font-family: 'Roboto-Light', 'Roboto', 'Noto Serif', 'Cormorant Infant', 'Cormorant', 'Taviraj', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-
 .tnr-font {
     font-family: "Times New Roman" !important;
     font-style: italic;
 }
-
 .italic-font-style {
     font-style: italic;
     text-align: justify;
 }
-
 .navbar li a {
     color: #555;
 }
-
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top;
 }
-
 .navbar .navbar-collapse {
     text-align: center;
 }
-
 .cover {
     background: url(../img/banner_home.gif) center center no-repeat, linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1));
     height: calc(100vh - 52px);
@@ -33,50 +27,53 @@ body {
     background-size: cover;
     background-position: top;
 }
-
 .intro-header img {
     width: 100%;
 }
-
 .navbar {
     margin-bottom: 0px;
 }
-
 section {
     margin: 20px 0px;
 }
-
 section.tieuchi {
     margin: 60px 0px 40px 0px;
 }
-
 .tieuchi-box h4 {
     margin: 0px;
 }
-
 .tieuchi-box .box {
     height: 80px;
     width: 80px;
     border: 5px solid #00000059;
     margin: 0px 10px 10px 0px;
 }
-
 .tieuchi-box p {
     font-style: italic;
 }
-
 .image-shadow {
     box-shadow: -30px 30px #8c9da7;
     margin-left: 30px;
     margin-bottom: 80px;
 }
-
-.intro {
-    padding-top: 40px;
-    font-style: italic;
+#intro {
+    margin-bottom: 50px
 }
-
-.cchml {
+#intro h2 {
+    font-weight: bold;
+    color: #6e8282;
+    margin-bottom: 30px;
+    line-height: 40px;
+    margin-left: 80px;
+}
+#intro img {
+    margin: auto;
+}
+#intro p {
+    font-size: 22px;
+    padding-right: 50px;
+}
+#cchml {
     background: url(../img/home_002.gif);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -86,14 +83,17 @@ section.tieuchi {
     background-color: #e4e4e4;
     padding-bottom: 50px;
 }
-
+#cchml p {
+    font-size: 20px;
+    padding: 0 80px;
+    line-height: 40px;
+}
 .btn.btn-light:hover {
     background: #333;
     color: #fff;
     -webkit-transition: background 0.5s, color 0.5s;
     transition: background 0.5s, color 0.5s;
 }
-
 .btn.btn-light {
     background: rgba(255, 255, 255, 0.5);
     padding: 10px 25px;
@@ -103,19 +103,15 @@ section.tieuchi {
     -webkit-transition: background 0.5s;
     transition: background 0.5s;
 }
-
 .cchml-img {
     max-height: 350px;
 }
-
 .overflow-hidden {
     overflow: hidden;
 }
-
-section.tintuc {
+section#tintuc {
     margin-bottom: 60px;
 }
-
 .tintuc-text {
     position: absolute;
     bottom: 0;
@@ -127,19 +123,17 @@ section.tintuc {
     font-style: italic;
     cursor: pointer;
 }
-
 .tintuc-text:hover {
     bottom: 40px;
     transition: bottom 0.3s;
 }
-
 .sec-title {
     margin-top: 40px;
     padding: 20px;
+    font-weight: bold;
     background: url(../img/h_bg.png) top center no-repeat;
 }
-
-section.khoahoc {
+section#khoahoc {
     background: url(../img/home_012.gif), linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
     background-repeat: no-repeat;
     background-position: center top;
@@ -149,13 +143,12 @@ section.khoahoc {
     padding: 88px 0px 100px 0px;
     margin: 0px;
 }
-
-.khoahoc h1 {
+#khoahoc h1 {
     color: #859a9c;
-    font-size: 40px;
+    font-size: 56px;
+    font-weight: bold;
 }
-
-.khoahoc .btn-dark {
+#khoahoc .btn-dark {
     border: 2px solid #fff;
     font-size: 30px;
     padding: 10px 65px;
@@ -164,16 +157,18 @@ section.khoahoc {
     margin-top: 30px;
     transition: 0.5s background;
 }
-
-.khoahoc .btn-dark:hover {
+#khoahoc .btn-dark:hover {
     background: rgba(0, 0, 0, 0.5);
     transition: 0.5s background;
 }
-
-section.nkht {
+section#nkht {
     margin-bottom: 80px;
 }
-
+#nkht .grey-bg {
+    background-color: #e5e5e5;
+    padding: 60px 50px;
+    height: 412px;
+}
 footer.footer {
     background: url(../img/footer.gif);
     background-repeat: no-repeat;
@@ -184,11 +179,9 @@ footer.footer {
     padding: 100px 0px 60px 0px;
     margin: 0px;
 }
-
 .text-bold {
     font-weight: bold;
 }
-
 #inputSEmail {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 30px;
@@ -196,69 +189,55 @@ footer.footer {
     font-size: 20px;
     border: 2px solid rgba(255, 255, 255, 0.7);
 }
-
 #inputSEmail::placeholder {
     color: #fff;
     text-align: center;
     font-weight: lighter;
     font-style: italic;
 }
-
 .route {
     padding: 7px 0;
 }
-
 .route a {
     color: black;
 }
-
 .route img {
     margin: 0 5px;
 }
-
 .search {
     position: relative;
 }
-
 .search input {
     width: 300px;
 }
-
 .search img {
     position: absolute;
     right: 10px;
     top: 10px;
 }
-
 #about-us .title h3 {
     margin-top: 0;
     margin-bottom: 50px;
 }
-
 p {
     line-height: 30px;
     font-size: 18px;
 }
-
 section .brown-bg {}
-
 section#quote {
     position: relative;
     margin: 50px 0;
 }
-
 blockquote {
     border-left: none;
     text-align: center;
     padding: 0 350px;
 }
-
 blockquote h2 {
     color: rgb(31, 87, 110);
     font-style: italic;
     line-height: 50px;
 }
-
 blockquote:before {
     font-family: "Georgia", serif;
     content: "“";
@@ -269,7 +248,6 @@ blockquote:before {
     color: rgb(208, 186, 172);
     font-weight: normal;
 }
-
 blockquote:after {
     font-family: "Georgia", serif;
     content: "”";
@@ -280,7 +258,6 @@ blockquote:after {
     color: rgb(208, 186, 172);
     font-weight: normal;
 }
-
 @media (min-width: 1400px) {
     blockquote:before {
         left: 32vw;
@@ -289,12 +266,10 @@ blockquote:after {
         right: 32vw;
     }
 }
-
 section#quote h3 {
     font-style: italic;
     line-height: 50px;
 }
-
 #about-us .brown-bg {
     position: absolute;
     width: 120%;
@@ -304,23 +279,19 @@ section#quote h3 {
     z-index: -1;
     padding: 50px 170px 50px 80px;
 }
-
 #about-us h1.tnr-font {
     line-height: 50px;
 }
-
 section#ask h1 {
     line-height: 50px;
     margin-bottom: 50px;
 }
-
 section#ask h1.left {
     padding-left: 100px;
     color: rgb(102, 89, 81);
     font-size: 48px;
     line-height: 60px;
 }
-
 section#ask h1.right {
     padding-right: 70px;
     color: rgb(130, 158, 169);
@@ -328,8 +299,6 @@ section#ask h1.right {
     line-height: 60px;
     margin: 50px 0;
 }
-
-
 #ask p.two-col {
     -webkit-columns: 20px 2;
     /* Chrome, Safari, Opera */
@@ -340,7 +309,6 @@ section#ask h1.right {
     font-style: italic;
     font-weight: 300;
 }
-
 #ask .blue-bg {
     position: absolute;
     width: 120%;
@@ -352,7 +320,6 @@ section#ask h1.right {
     direction: rtl;
     margin-left: 50px;
 }
-
 #ask .brown-bg {
     position: absolute;
     width: 120%;
@@ -364,23 +331,19 @@ section#ask h1.right {
     margin-right: 70px;
     top: 100px;
 }
-
 .lightbrowbg {
     background-color: rgb(234, 223, 217);
 }
-
 #thanks {
     margin: 200px 0 100px 0;
     text-align: center;
 }
-
 #thanks h3 {
     padding: 0 300px;
     line-height: 50px;
     font-style: italic;
     font-size: 30px;
 }
-
 .web-name {
     font-weight: bold;
     color: rgb(31, 87, 110);
