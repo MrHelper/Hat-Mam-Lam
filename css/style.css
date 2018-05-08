@@ -9,6 +9,12 @@ body {
     font-style: italic;
     text-align: justify;
 }
+.title{
+    text-align: center;
+}
+.title h2{
+    font-weight:bold;
+}
 .navbar li a {
     color: #555;
 }
@@ -255,14 +261,7 @@ blockquote:after {
     color: rgb(208, 186, 172);
     font-weight: normal;
 }
-@media (min-width: 1400px) {
-    blockquote:before {
-        left: 32vw;
-    }
-    blockquote:after {
-        right: 32vw;
-    }
-}
+
 section#quote h3 {
     font-style: italic;
     line-height: 50px;
@@ -379,4 +378,67 @@ section#ask h1.right {
 
 .multiple-items .slick-list {
     margin-left: -27px;
+}
+
+.multiple-items .title, .other-posts .title{
+    text-align: left;
+}
+
+#tam-su{
+    margin-top: 0;
+}
+
+
+#tam-su .title {
+    margin-bottom: 30px;
+}
+
+#tam-su .posts h3, #tam-su .posts h4{
+    display: inline-block;
+    margin:0;
+    font-weight: bold;
+}
+#tam-su .posts p{
+    text-align: justify;
+}
+
+#tam-su p{
+    margin-top: 5px;
+}
+
+#tam-su .post{
+    margin-top: 30px;
+}
+
+#tam-su .post .post-thumbnail{
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+#tam-su .post .post-info{
+    display: inline-block;
+    width: 75%;
+    float: left;
+}
+#tam-su img[alt="play"]{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+#tam-su .other-posts{
+    margin-top: 30px;
+}
+#tam-su .other-posts .title{
+    margin-bottom: 15px ;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+@media (min-width: 1400px) {
+    blockquote:before {
+        left: 32vw;
+    }
+    blockquote:after {
+        right: 32vw;
+    }
 }
