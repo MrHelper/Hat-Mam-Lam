@@ -1,6 +1,9 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
+.img-responsive {
+    width: 100%;
+}
 .tnr-font {
     font-family: "Times New Roman" !important;
     font-style: italic;
@@ -9,11 +12,11 @@ body {
     font-style: italic;
     text-align: justify;
 }
-.title{
+.title {
     text-align: center;
 }
-.title h2{
-    font-weight:bold;
+.title h2 {
+    font-weight: bold;
 }
 .navbar li a {
     color: #555;
@@ -261,7 +264,6 @@ blockquote:after {
     color: rgb(208, 186, 172);
     font-weight: normal;
 }
-
 section#quote h3 {
     font-style: italic;
     line-height: 50px;
@@ -277,6 +279,9 @@ section#quote h3 {
 }
 #about-us h1.tnr-font {
     line-height: 50px;
+}
+#about-us .fixed-screen {
+    margin-top: 130px;
 }
 section#ask h1 {
     line-height: 50px;
@@ -294,6 +299,9 @@ section#ask h1.right {
     font-size: 48px;
     line-height: 60px;
     margin: 50px 0;
+}
+#ask .fixed-screen {
+    margin-top: 100px;
 }
 #ask p.two-col {
     -webkit-columns: 20px 2;
@@ -379,61 +387,147 @@ section#ask h1.right {
 .multiple-items .slick-list {
     margin-left: -27px;
 }
-
-.multiple-items .title, .other-posts .title{
+.multiple-items .title, .other-posts .title, .share-posts .title, #ask .title {
     text-align: left;
 }
-
-#tam-su{
+#tam-su {
     margin-top: 0;
 }
-
-
 #tam-su .title {
     margin-bottom: 30px;
 }
-
-#tam-su .posts h3, #tam-su .posts h4{
+#tam-su .posts h3, #tam-su .posts h4 {
     display: inline-block;
-    margin:0;
+    margin: 0;
     font-weight: bold;
 }
-#tam-su .posts p{
+#tam-su .posts p {
     text-align: justify;
 }
-
-#tam-su p{
+#tam-su p {
     margin-top: 5px;
 }
-
-#tam-su .post{
+#tam-su .top-post {
+    margin-top: 10px;
+}
+#tam-su .post {
     margin-top: 30px;
 }
-
-#tam-su .post .post-thumbnail{
+#tam-su .post .post-thumbnail {
     display: inline-block;
     width: 25%;
     float: left;
 }
-#tam-su .post .post-info{
+#tam-su .post .post-thumbnail img {
+    display: block;
+    width: 100%;
+}
+#tam-su .post .post-info {
     display: inline-block;
+    padding-left: 10px;
     width: 75%;
     float: left;
 }
-#tam-su img[alt="play"]{
+#tam-su img[alt="play"] {
     margin-bottom: 5px;
     margin-right: 5px;
 }
-#tam-su .other-posts{
+#tam-su .other-posts {
     margin-top: 30px;
 }
-#tam-su .other-posts .title{
-    margin-bottom: 15px ;
+#tam-su .other-posts .title {
+    margin-bottom: 15px;
 }
-@media (min-width: 769px) and (max-width: 1024px) {
-    
+#trai-nghiem .tintuc-item {
+    margin-bottom: 20px;
 }
-
+#trai-nghiem .tintuc-text {
+    padding: 10px 30px;
+}
+#trai-nghiem .tintuc-text p {
+    margin: 0;
+}
+#trai-nghiem .tintuc-text h4 {
+    margin-bottom: 0;
+}
+#trai-nghiem .large-thumbnail, #chat-lieu .post-thumbnail, #chat-lieu .posts-thumbnail {
+    position: relative;
+}
+#trai-nghiem .opacity-bg, #chat-lieu .text-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 0 80px;
+    padding-top: 350px;
+    text-align: justify;
+    z-index: 1;
+}
+#trai-nghiem .opacity-bg p {
+    font-size: 20px;
+}
+#trai-nghiem .opacity-bg h3, #trai-nghiem .opacity-bg h1, #chat-lieu h1, #chat-lieu h3 {
+    font-style: normal;
+}
+#trai-nghiem .opacity-bg h1, #chat-lieu .text-bg h1 {
+    font-size: 56px;
+    margin-top: 0;
+}
+#chat-lieu {
+    margin-bottom: 50px;
+}
+#chat-lieu .text-bg {
+    padding: 20px 50px;
+    color: #1e434a;
+}
+#chat-lieu .text-bg p {
+    font-size: 16px;
+}
+#chat-lieu .text-bg h1 {
+    text-align: right;
+}
+#chat-lieu .light-blue-bg {
+    min-height: 316px;
+    background-color: #e1eef7;
+    text-align: center;
+    padding: 50px 0;
+}
+#chat-lieu .light-blue-bg img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#chat-lieu .light-blue-bg a {
+    background-color: transparent;
+}
+#chat-lieu .light-blue-bg a:hover {
+    background-color: rgba(0, 0, 0, .75);
+}
+#chat-lieu .posts-thumbnail .text-bg {
+    color: white;
+    text-align: center;
+    padding: 23% 0;
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    #about-us .brown-bg {
+        top: 120px;
+        padding: 50px 100px 50px 80px;
+    }
+    #ask .brown-bg {
+        padding: 50px 50px 50px 200px;
+    }
+    #about-us .fixed-screen {
+        margin-top: 300px;
+    }
+    #ask .fixed-screen {
+        margin-top: 200px;
+    }
+    #thanks {
+        margin: 300px 0 100px 0;
+    }
+}
 @media (min-width: 1400px) {
     blockquote:before {
         left: 32vw;
