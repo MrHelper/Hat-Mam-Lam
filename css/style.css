@@ -387,13 +387,13 @@ section#ask h1.right {
 .multiple-items .slick-list {
     margin-left: -27px;
 }
-.multiple-items .title, .other-posts .title, .share-posts .title, #ask .title {
+.multiple-items .title, .other-posts .title, .share-posts .title, #ask .title, #new-posts .posts h3 {
     text-align: left;
 }
 #tam-su {
     margin-top: 0;
 }
-#tam-su .title {
+#tam-su .title, #conversation .title, #new-posts .title {
     margin-bottom: 30px;
 }
 #tam-su .posts h3, #tam-su .posts h4 {
@@ -475,7 +475,7 @@ section#ask h1.right {
     font-size: 56px;
     margin-top: 0;
 }
-#chat-lieu {
+#chat-lieu, #conversation, #new-posts {
     margin-bottom: 50px;
 }
 #chat-lieu .text-bg {
@@ -509,6 +509,15 @@ section#ask h1.right {
     color: white;
     text-align: center;
     padding: 23% 0;
+}
+#conversation .text {
+    margin-top: 60px;
+}
+#new-posts .posts h3 {
+    margin-bottom: 10px;
+}
+#new-posts .tintuc-item {
+    margin-bottom: 30px;
 }
 @media (min-width: 769px) and (max-width: 1200px) {
     #about-us .brown-bg {
