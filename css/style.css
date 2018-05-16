@@ -519,6 +519,72 @@ section#ask h1.right {
 #new-posts .tintuc-item {
     margin-bottom: 30px;
 }
+.post-detail .image, .post-detail .text {
+    width: 50%;
+    float: left;
+}
+.post-detail .text {
+    padding: 50px 0 0 70px;
+}
+.post-detail .text p {
+    text-align: justify;
+}
+.post-detail p {
+    text-align: justify;
+}
+.post-detail .detail {
+    margin-top: 50px;
+}
+.post-detail .detail .detail-image {
+    margin: 20px 40px;
+}
+.post-detail .detail .author {
+    padding-right: 30px;
+}
+.post-detail .tag img {
+    margin-right: 20px;
+}
+.post-detail .tag a {
+    display: inline-block;
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+    cursor: pointer;
+}
+.other-news {
+    margin-top: 20px;
+}
+.other-news .title {
+    display: inline-block;
+    text-align: left;
+    padding: 0 20px;
+    border-bottom: 2px solid #126585;
+}
+.other-news hr {
+    margin-top: 0;
+    border-top: 1px solid #000;
+}
+.other-news .links {
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.other-news .links a {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.other-news .links a, .other-news .links a:hover, .other-news .links a:focus {
+    color: #000;
+}
+.hot-conversation, .hot-experience {
+    margin-bottom: 50px;
+}
+.hot-conversation .tintuc-item, .hot-experience .tintuc-item {
+    margin-top: 30px;
+}
+.hot-conversation h3.title, .hot-experience h3.title {
+    text-align: left;
+}
 @media (min-width: 769px) and (max-width: 1200px) {
     #about-us .brown-bg {
         top: 120px;
