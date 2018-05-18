@@ -439,9 +439,16 @@ section#ask h1.right {
     margin-bottom: 15px;
 }
 #trai-nghiem .tintuc-item {
+    position: relative;
+    overflow: hidden;
+    max-height: 315px;
     margin-bottom: 20px;
 }
 #trai-nghiem .tintuc-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 10px 30px;
 }
 #trai-nghiem .tintuc-text p {
@@ -453,17 +460,23 @@ section#ask h1.right {
 #trai-nghiem .large-thumbnail, #chat-lieu .post-thumbnail, #chat-lieu .posts-thumbnail {
     position: relative;
 }
-#trai-nghiem .opacity-bg, #chat-lieu .text-bg {
+#trai-nghiem .opacity-bg {
     position: absolute;
-    top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 50px;
     left: 0;
     color: white;
     padding: 0 80px;
-    padding-top: 350px;
     text-align: justify;
     z-index: 1;
+}
+#chat-lieu .text-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
 }
 #trai-nghiem .opacity-bg p {
     font-size: 20px;
@@ -586,6 +599,13 @@ section#ask h1.right {
     text-align: left;
 }
 @media (min-width: 769px) and (max-width: 1200px) {
+    #trai-nghiem .tintuc-item {
+        max-height: 260px;
+        margin-bottom: 16px;
+    }
+    #trai-nghiem .tintuc-text p {
+        font-size: 16px;
+    }
     #about-us .brown-bg {
         top: 120px;
         padding: 50px 100px 50px 80px;
